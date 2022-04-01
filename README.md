@@ -1,1 +1,6 @@
-# OOP-2564-Week-08
+# Week-08 Variables
+
+## [เนื้อหา Slides](./Slides.md) ## 
+
+
+## [การทดลอง](Lab.md) ##
