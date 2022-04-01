@@ -14,8 +14,8 @@
 []-(root of repo)
 |-------- ไฟล์ต่างๆ ของอาจารย์ (ใบงาน, slides,  ฯลฯ)
 +--(6x03xxxx)-+
-|             |--- file งานของนักศึกษา ที่ copy มาจากของอาจารย์
-|             |--- ไฟล์ .gitignore  (visual studio)  <-- [นักศึกษาต้องสร้างเอง]
+|             |--- file งานของนักศึกษา (copy มาจากใบงานของอาจารย์)
+|             |--- ไฟล์ .gitignore  (visual studio)  <-- (นักศึกษาต้องสร้างเอง)
 |             +--(Project8.1)--+
 |             |                |--- Visual Studio project files 
 |             |                 
