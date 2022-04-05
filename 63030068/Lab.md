@@ -256,6 +256,20 @@ line 11: แสดงข้อความ    X ==> 75BCD15 (Hexadecimal) โด
     Console.WriteLine($"   X ==> {i,20:X}");
 ```
 
+##### อธิบายชุดที่ 5 #####
+```
+line 1: กำหนดตัวแปร i = 123456789 ชนิดจำนวนเต็ม
+line 2: แสดงข้อความ Regular string format
+line 3: แสดงข้อความ                     123456789 โดยการจัดรูปแบบ Composite formatting
+line 4: แสดงข้อความ String interpreter
+line 5: แสดงข้อความ None ==>            123456789 กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 6: แสดงข้อความ    E ==>        1.234568E+008 (Scientific) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 7: แสดงข้อความ    F ==>         123456789.00 (Fixed point) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 8: แสดงข้อความ    G ==>            123456789 (General) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 9: แสดงข้อความ    N ==>       123,456,789.00 (Number) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 10: แสดงข้อความ    P ==>   12,345,678,900.00% (Percent) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+line 11: แสดงข้อความ    X ==>              75BCD15 (Hexadecimal) กำหนดให้มีช่องว่าง 20 โดยการจัดรูปแบบ String interpreter
+```
 
 #### ชุดที่ 6 ####
 ```cs
