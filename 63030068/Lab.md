@@ -338,7 +338,7 @@ line 19: แสดงข้อความ 1234.568. โดยการกำห
 ```
 
 ---- 
-### Project 8.2 static keyword ## 
+### Project 8.3 static keyword ## 
 1. สร้าง project ชนิด console
 2. เขียนโปรแกรมต่อไปนี้
 
