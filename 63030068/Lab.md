@@ -380,5 +380,15 @@ namespace method_examples
 
 ### คำถาม ###
 1. ผลการทำงานเป็นอย่างไร
-2. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
-3. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+```
+ไม่สามารถรันโปรแกรมได้
+```
+3. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
+```
+line 2 และ 7 ใน Method Main (number.numberInt2) เพราะ ไม่ได้ประกาศเป็น static int number.numberInt2
+line 4 และ 9 ใน Method Main (number.numberDouble2) ไม่ได้ประกาศเป็น static double number.numberDouble2
+```
+4. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+```
+ประกาศให้เป็น static int number.numberInt2 และ static double number.numberDouble2
+```
