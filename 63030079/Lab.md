@@ -410,5 +410,20 @@ namespace method_examples
 
 ### คำถาม ###
 1. ผลการทำงานเป็นอย่างไร
+```
+    Error ไม่สามารถ Run โปรแกรมได้
+```
+
 2. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
+
+![image](https://user-images.githubusercontent.com/92081920/162631560-2c906b68-dd78-4ccd-abfb-a40d2ef19520.png)
+
+```
+    บรรทัดที่13,15 : เพราะไม่ได้ประกาศตัวแปรเป็น static public int และ static public double
+    บรรทัดที่18,20 : เพราะไม่สามารถแสดงค่าตัวแปร number.numberInt2 และ number.numberDouble2
+```
+
 3. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+```
+    ใน class number ประกาศ numberInt2 ให้เป็น static int number.numberInt2 และ numberDouble2 ให้เป็น static double number.numberDouble2
+```
