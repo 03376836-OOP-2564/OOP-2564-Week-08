@@ -12,15 +12,15 @@ namespace Project_8._2
         {
             int i = 123456789;
             Console.WriteLine("Regular string format");
-            Console.WriteLine("{0}", i);
+            Console.WriteLine("         {0,20}", i);
             Console.WriteLine("String interpreter");
-            Console.WriteLine($"None ==> {i}");
-            Console.WriteLine($"   E ==> {i:E}");
-            Console.WriteLine($"   F ==> {i:F}");
-            Console.WriteLine($"   G ==> {i:G}");
-            Console.WriteLine($"   N ==> {i:N}");
-            Console.WriteLine($"   P ==> {i:P}");
-            Console.WriteLine($"   X ==> {i:X}");
+            Console.WriteLine($"None ==> {i,20}");
+            Console.WriteLine($"   E ==> {i,20:E}");
+            Console.WriteLine($"   F ==> {i,20:F}");
+            Console.WriteLine($"   G ==> {i,20:G}");
+            Console.WriteLine($"   N ==> {i,20:N}");
+            Console.WriteLine($"   P ==> {i,20:P}");
+            Console.WriteLine($"   X ==> {i,20:X}");
         }
     }
 }
