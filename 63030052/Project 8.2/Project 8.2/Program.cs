@@ -10,11 +10,11 @@ namespace Project_8._2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("{0} and {1}", 3, 5);
-            Console.WriteLine("{0} and {1}", 3.0, 5.0);
-            Console.WriteLine("{0} and {1}", 3.0d, 5.0d);
-            Console.WriteLine("{0:F1} and {1:F1}", 3.0, 5.0);
-            Console.WriteLine("{0:F2} and {1:F2}", 3.0d, 5.0d);
+            Console.WriteLine($"{3} and {1}");
+            Console.WriteLine($"{3} and {1}");
+            Console.WriteLine($"{3.0d} and {1.0001d}");
+            Console.WriteLine($"{3:F2} and {1000.123:F1}");
+            Console.WriteLine($"{3.123456:F2} and {5.123000:F4}");
         }
     }
 }
