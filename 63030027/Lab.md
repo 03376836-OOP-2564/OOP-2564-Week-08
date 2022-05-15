@@ -399,5 +399,15 @@ namespace method_examples
 
 ### คำถาม ###
 1. ผลการทำงานเป็นอย่างไร
+ ```
+    Error ไม่สามารถ Run โปรแกรมได้
+```
 2. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
+![Screenshot 2022-05-16 020121](https://user-images.githubusercontent.com/91043042/168489549-9bbeb680-2bee-406c-bd05-0a3d20a0d33a.jpg)
+
+
 3. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+
+```
+    ใน class number ประกาศ numberInt2 ให้เป็น static int number.numberInt2 และ numberDouble2 ให้เป็น static double number.numberDouble2
+```
