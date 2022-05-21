@@ -242,6 +242,7 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"   X ==> {i,20:X}");
 ```
 
+![picture5](https://user-images.githubusercontent.com/92082676/169658163-47c7b4f0-01c8-4b5b-b9ea-9cbe389a89ec.png)
 
 #### ชุดที่ 6 ####
 ```cs
