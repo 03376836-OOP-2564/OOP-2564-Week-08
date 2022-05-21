@@ -327,7 +327,7 @@ namespace method_examples
 
 ![img1](https://user-images.githubusercontent.com/92082676/169658502-0f2b3a6d-c4c9-4bbb-962c-0b657ddc5948.png)
 
-3. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
+2. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
 
 ```
 บรรทัด 23 เพราะไม่ได้ประกาศตัวแปรเป็น static public int และ static public double
@@ -336,4 +336,8 @@ namespace method_examples
 บรรทัด 30 เพราะไม่สามารถแสดงค่าตัวแปร number.numberInt2 และ number.numberDouble2
 ```
 
-5. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+3. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+
+```
+ ใน class number ประกาศ numberInt2 ให้เป็น static int number.numberInt2 และ numberDouble2 ให้เป็น static double number.numberDouble2
+```
