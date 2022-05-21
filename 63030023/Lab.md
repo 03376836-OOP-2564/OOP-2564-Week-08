@@ -178,6 +178,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine("{0:F2} and {1:F2}", 3.0d, 5.0d);
 ```
 
+![picture1](https://user-images.githubusercontent.com/92082676/169653353-075c5cf4-f2e8-4688-b8e0-75b792f35a7c.png)
+
 #### ชุดที่ 2 ####
 ```cs
     Console.WriteLine($"{3} and {1}");
