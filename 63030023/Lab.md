@@ -254,6 +254,7 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{i,10:F5}");
 ```
 
+![picture6](https://user-images.githubusercontent.com/92082676/169658310-c8650a49-f863-4a8f-bc0f-36a1a7a23218.png)
 
 #### ชุดที่ 6 ####
 ```cs
