@@ -208,6 +208,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{1,25}");
 ```
 
+![picture3](https://user-images.githubusercontent.com/92082676/169653599-bbcc96e7-6145-4da7-9283-e12845236039.png)
+
 #### ชุดที่ 4 ####
 ```cs
     int i = 123456789;
