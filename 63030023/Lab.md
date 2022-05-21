@@ -225,6 +225,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"   X ==> {i:X}");
 ```
 
+![picture4](https://user-images.githubusercontent.com/92082676/169657832-740279fc-6e81-400f-9a90-7dc7cb1d1c04.png)
+
 #### ชุดที่ 5 ####
 ```cs
     int i = 123456789;
