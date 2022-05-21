@@ -189,6 +189,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{3.123456:F2} and {5.123000:F4}");
 ```
 
+![picture2](https://user-images.githubusercontent.com/92082676/169653403-7f8445f3-5d28-4bcf-a2aa-b774a538ef6e.png)
+
 #### ชุดที่ 3 ####
 ```cs
     Console.WriteLine($"         1111111111222222");
