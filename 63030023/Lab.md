@@ -178,6 +178,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine("{0:F2} and {1:F2}", 3.0d, 5.0d);
 ```
 
+![picture1](https://user-images.githubusercontent.com/92082676/169653353-075c5cf4-f2e8-4688-b8e0-75b792f35a7c.png)
+
 #### ชุดที่ 2 ####
 ```cs
     Console.WriteLine($"{3} and {1}");
@@ -186,6 +188,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{3:F2} and {1000.123:F1}");
     Console.WriteLine($"{3.123456:F2} and {5.123000:F4}");
 ```
+
+![picture2](https://user-images.githubusercontent.com/92082676/169653403-7f8445f3-5d28-4bcf-a2aa-b774a538ef6e.png)
 
 #### ชุดที่ 3 ####
 ```cs
@@ -204,6 +208,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{1,25}");
 ```
 
+![picture3](https://user-images.githubusercontent.com/92082676/169653599-bbcc96e7-6145-4da7-9283-e12845236039.png)
+
 #### ชุดที่ 4 ####
 ```cs
     int i = 123456789;
@@ -218,6 +224,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"   P ==> {i:P}");
     Console.WriteLine($"   X ==> {i:X}");
 ```
+
+![picture4](https://user-images.githubusercontent.com/92082676/169657832-740279fc-6e81-400f-9a90-7dc7cb1d1c04.png)
 
 #### ชุดที่ 5 ####
 ```cs
@@ -234,6 +242,7 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"   X ==> {i,20:X}");
 ```
 
+![picture5](https://user-images.githubusercontent.com/92082676/169658163-47c7b4f0-01c8-4b5b-b9ea-9cbe389a89ec.png)
 
 #### ชุดที่ 6 ####
 ```cs
@@ -245,8 +254,9 @@ String interpreter จะช่วยตีความให้ค่าใน�
     Console.WriteLine($"{i,10:F5}");
 ```
 
+![picture6](https://user-images.githubusercontent.com/92082676/169658310-c8650a49-f863-4a8f-bc0f-36a1a7a23218.png)
 
-#### ชุดที่ 6 ####
+#### ชุดที่ 7 ####
 ```cs
     string name = "Hello";
     Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
@@ -268,6 +278,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
         Console.WriteLine($"{i}\t{i*i}\t{i*i*i}");
     Console.WriteLine($"{1234.56789:#.###}.");
 ```
+
+![picture7](https://user-images.githubusercontent.com/92082676/169658377-ec3d4655-11f4-4435-9462-7fcdf9d88fd5.png)
 
 ---- 
 ### Project 8.2 static keyword ## 
@@ -312,5 +324,20 @@ namespace method_examples
 
 ### คำถาม ###
 1. ผลการทำงานเป็นอย่างไร
+
+![img1](https://user-images.githubusercontent.com/92082676/169658502-0f2b3a6d-c4c9-4bbb-962c-0b657ddc5948.png)
+
 2. บรรทัดไหนของโปรแกรมที่มี error บ้าง เพราะอะไร
+
+```
+บรรทัด 23 เพราะไม่ได้ประกาศตัวแปรเป็น static public int และ static public double
+บรรทัด 25 เพราะไมด่ได้ประกาศตัวแปรเป็น static public int และ static public double
+บบรทัด 28 เพราะไม่สามารถแสดงค่าตัวแปร number.numberInt2 และ number.numberDouble2
+บรรทัด 30 เพราะไม่สามารถแสดงค่าตัวแปร number.numberInt2 และ number.numberDouble2
+```
+
 3. ถ้าจะให้โปรแกรมทำงานได้ สามารถแก้ไขอย่างไรได้บ้าง
+
+```
+ ใน class number ประกาศ numberInt2 ให้เป็น static int number.numberInt2 และ numberDouble2 ให้เป็น static double number.numberDouble2
+```
