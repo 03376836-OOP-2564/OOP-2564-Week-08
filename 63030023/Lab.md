@@ -256,7 +256,7 @@ String interpreter จะช่วยตีความให้ค่าใน�
 
 ![picture6](https://user-images.githubusercontent.com/92082676/169658310-c8650a49-f863-4a8f-bc0f-36a1a7a23218.png)
 
-#### ชุดที่ 6 ####
+#### ชุดที่ 7 ####
 ```cs
     string name = "Hello";
     Console.WriteLine(String.Format("{0} there. I said {0}! {0}???", name));
@@ -278,6 +278,8 @@ String interpreter จะช่วยตีความให้ค่าใน�
         Console.WriteLine($"{i}\t{i*i}\t{i*i*i}");
     Console.WriteLine($"{1234.56789:#.###}.");
 ```
+
+![picture7](https://user-images.githubusercontent.com/92082676/169658377-ec3d4655-11f4-4435-9462-7fcdf9d88fd5.png)
 
 ---- 
 ### Project 8.2 static keyword ## 
